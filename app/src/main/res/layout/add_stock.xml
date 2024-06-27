@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Stock"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@color/purple"
+        android:layout_marginBottom="24dp" />
+
+    <EditText
+        android:id="@+id/stockName"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Stock Name"
+        android:inputType="text"
+        android:background="@drawable/custom_edittext"
+        android:drawableLeft="@drawable/baseline_person_24"
+        android:drawablePadding="8dp"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:textColorHighlight="@color/cardview_dark_background"/>
+
+    <EditText
+        android:id="@+id/stockQuantity"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Quantity"
+        android:inputType="number"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/custom_edittext"
+        android:drawableLeft="@drawable/baseline_person_24"
+        android:drawablePadding="8dp"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:textColorHighlight="@color/cardview_dark_background"/>
+
+    <EditText
+        android:id="@+id/stockPrice"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Price"
+        android:inputType="numberDecimal"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/custom_edittext"
+        android:drawableLeft="@drawable/baseline_person_24"
+        android:drawablePadding="8dp"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:textColorHighlight="@color/cardview_dark_background"/>
+
+    <Button
+        android:id="@+id/addStockButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/purple_200"
+        android:text="Add Stock"
+        android:layout_marginTop="24dp" />
+</LinearLayout>
